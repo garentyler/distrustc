@@ -1,0 +1,13 @@
+[package]
+name = "distrustc-client"
+version = "0.1.0"
+edition = "2021"
+authors = [ "Garen Tyler <garentyler@garen.dev>" ]
+description = "A Rust-compatible distcc implementation"
+documentation = "https://docs.rs/distrustc-client"
+repository = "https://github.com/garentyler/distrustc"
+keywords = [ "distrustc", "distcc", "rustc", "distributed", "compiler" ]
+categories = [ "command-line-utilities", "compilers", "concurrency", "development-tools::build-utils", "development-tools::cargo-plugins" ]
+license = "MIT"
+
+[dependencies]
